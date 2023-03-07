@@ -112,7 +112,7 @@
 .about-section {
   background-color: var(--section-blue);
   padding: 50px 0;
-  margin-top: 30px; }
+  margin-top: 50px; }
   .about-section .inner {
     position: relative; }
     .about-section .inner .decor {
@@ -215,5 +215,144 @@
             font-weight: 700; }
         .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info {
           height: 80%; }
+          .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-title {
+            height: 30%; }
+          .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity {
+            height: 70%;
+            padding-top: 5px;
+            column-gap: 20px; }
+            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline {
+              position: relative;
+              transform: translate(20px, 0); }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: -12.5px;
+                transform: translate(0, -50%);
+                width: 2px;
+                height: calc(100% - 20px);
+                border-left: 1px dashed #b1b4b8; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:first-child {
+                position: relative; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:first-child::before {
+                  content: "";
+                  position: absolute;
+                  top: 50%;
+                  left: -15px;
+                  transform: translate(0, -50%);
+                  width: 5px;
+                  height: 5px;
+                  border-radius: 50%;
+                  background-color: #000000; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:last-child {
+                position: relative; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:last-child::before {
+                  content: "";
+                  position: absolute;
+                  top: 50%;
+                  left: -15px;
+                  transform: translate(0, -50%);
+                  width: 5px;
+                  height: 5px;
+                  border-radius: 50%;
+                  background-color: #000000; }
+            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-achive {
+              column-gap: 40px; }
+            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill {
+              position: relative;
+              width: 230px;
+              height: 30px;
+              border-radius: 14px;
+              background-color: #eff0f2; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .count {
+                position: absolute;
+                left: 85%;
+                top: 0;
+                transform: translate(-110%, -150%);
+                font-size: 12px;
+                font-weight: bold; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .fill {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 85%;
+                height: 100%;
+                background-color: #fdd14ae6;
+                border-radius: inherit; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-rectangle {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-rectangle .rectangle {
+                  position: absolute;
+                  bottom: 0;
+                  left: var(--left);
+                  width: 3px;
+                  height: var(--height);
+                  background-color: #979797; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-bookmark {
+                position: absolute;
+                top: 0;
+                left: 85%;
+                transform: translate(100%, -100%);
+                width: 2px;
+                height: 20px;
+                background-color: #eff0f2; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-bookmark::before {
+                  content: "";
+                  position: absolute;
+                  top: 0;
+                  left: 50%;
+                  transform: translate(-50%, -100%);
+                  width: 5px;
+                  height: 5px;
+                  border-radius: 50%;
+                  background-color: #eff0f2; }
+      .feature-section .inner .wrapper-background .wrapper-cards .cards {
+        transform: translate(0, 40px);
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        column-gap: 20px; }
+        .feature-section .inner .wrapper-background .wrapper-cards .cards .card {
+          flex: 1;
+          max-width: 180px;
+          height: 140px;
+          background-color: #ffffff;
+          box-shadow: var(--shadow-card); }
+          .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active {
+            background-color: #222223; }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-image {
+              border: 0.25px solid #ffffff; }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-position,
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-name {
+              color: #ffffff; }
+          .feature-section .inner .wrapper-background .wrapper-cards .cards .card:nth-child(3), .feature-section .inner .wrapper-background .wrapper-cards .cards .card:nth-child(1) {
+            border-radius: 14px; }
+          .feature-section .inner .wrapper-background .wrapper-cards .cards .card:hover .card-image {
+            top: -20px; }
+          .feature-section .inner .wrapper-background .wrapper-cards .cards .card:hover .card-position {
+            top: 15px; }
+          .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-image {
+            position: absolute;
+            top: 35px;
+            left: 20px;
+            width: 40px;
+            height: 40px;
+            border: 0.25px solid #dfdfdf;
+            transition: all 0.5s linear; }
+          .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-name {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            transition: all 0.5s linear;
+            font-weight: bold; }
+          .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-position {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            transition: all 0.2s linear; }
   .feature-section .inner .wrapper-content {
     flex: 50%; }
