@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.margin-center {
+  margin: 0 auto;
+}
+
 .flex {
   display: flex;
 }
