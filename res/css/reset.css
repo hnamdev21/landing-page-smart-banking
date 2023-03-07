@@ -27,3 +27,8 @@ p {
 button {
   cursor: pointer;
 }
+
+ul,
+nav {
+  list-style-type: none;
+}

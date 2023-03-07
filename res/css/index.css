@@ -1,0 +1,186 @@
+#header-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  height: 100px;
+  padding: 10px 0;
+  background-color: #f8fcfffc; }
+  #header-page .wrapper-nav {
+    height: 80px;
+    margin-right: auto; }
+  #header-page .nav {
+    column-gap: 16px; }
+    #header-page .nav a {
+      color: var(--normal-text);
+      font-weight: 500;
+      padding: 10px;
+      transition: all 0.2s; }
+      #header-page .nav a:hover {
+        color: #000000; }
+  #header-page .wrapper-logo {
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #header-page .wrapper-logo .logo {
+      padding: 20px 40px; }
+  #header-page .wrapper-cart-icon {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    border: 0.5px solid #dfdfdf;
+    cursor: pointer; }
+
+.hero-section {
+  margin-top: 100px;
+  padding: 20px 0; }
+  .hero-section .inner {
+    row-gap: 40px; }
+    .hero-section .inner .top-section {
+      width: 100%; }
+      .hero-section .inner .top-section .wrapper-content {
+        max-width: 525px;
+        row-gap: 20px; }
+        .hero-section .inner .top-section .wrapper-content .title--large {
+          font-family: "Bai Jamjuree"; }
+        .hero-section .inner .top-section .wrapper-content .wrapper-link {
+          column-gap: 10px; }
+          .hero-section .inner .top-section .wrapper-content .wrapper-link .wrapper-right-icon {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: #000000;
+            color: #ffffff;
+            cursor: pointer; }
+            .hero-section .inner .top-section .wrapper-content .wrapper-link .wrapper-right-icon i {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%); }
+      .hero-section .inner .top-section .wrapper-image .background {
+        height: 330px; }
+        .hero-section .inner .top-section .wrapper-image .background:nth-child(1) {
+          width: 445px;
+          background-image: var(--bg-linear-gradient-1); }
+          .hero-section .inner .top-section .wrapper-image .background:nth-child(1) .wrapper-card-visa {
+            width: 600px;
+            transform: translate(-10%, -15%); }
+        .hero-section .inner .top-section .wrapper-image .background:nth-child(2) {
+          width: 230px;
+          padding: 20px;
+          background-image: var(--bg-linear-gradient-2);
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px; }
+          .hero-section .inner .top-section .wrapper-image .background:nth-child(2) .wrapper-feature-icon {
+            width: 55px;
+            height: 55px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: var(--shadow-card);
+            color: #000; }
+            .hero-section .inner .top-section .wrapper-image .background:nth-child(2) .wrapper-feature-icon:nth-child(4), .hero-section .inner .top-section .wrapper-image .background:nth-child(2) .wrapper-feature-icon:nth-child(5) {
+              background-color: #000000;
+              color: #ffffff; }
+    .hero-section .inner .bot-section {
+      width: 100%;
+      column-gap: 20px; }
+      .hero-section .inner .bot-section .wrapper-title {
+        width: 230px; }
+        .hero-section .inner .bot-section .wrapper-title .title {
+          font-family: "Bai Jamjuree";
+          font-size: 35px;
+          font-weight: 700;
+          margin-bottom: 10px; }
+          .hero-section .inner .bot-section .wrapper-title .title i {
+            color: #ff6a1f; }
+      .hero-section .inner .bot-section .wrapper-benefits {
+        column-gap: 100px; }
+        .hero-section .inner .bot-section .wrapper-benefits .benefit {
+          width: 190px; }
+          .hero-section .inner .bot-section .wrapper-benefits .benefit .benefit-icon {
+            font-size: 30px; }
+          .hero-section .inner .bot-section .wrapper-benefits .benefit .benefit-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 20px 0; }
+
+.about-section {
+  background-color: var(--section-blue);
+  padding: 50px 0;
+  margin-top: 30px; }
+  .about-section .inner {
+    position: relative; }
+    .about-section .inner .decor {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, calc((50% + 50px) * -1));
+      width: 70px;
+      height: 70px;
+      background-color: var(--md-blue); }
+      .about-section .inner .decor .square {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 3;
+        width: 70px;
+        height: 70px;
+        background-color: var(--section-blue); }
+    .about-section .inner .wrapper-content {
+      width: 260px; }
+      .about-section .inner .wrapper-content .title {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: "Bai Jamjuree"; }
+
+.achivement-section {
+  padding: 30px 0; }
+  .achivement-section .wrapper-title .title--large,
+  .achivement-section .wrapper-title .desc {
+    width: 640px; }
+  .achivement-section .wrapper-title .title--large {
+    font-family: "Bai Jamjuree"; }
+  .achivement-section .wrapper-achivements {
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative; }
+    .achivement-section .wrapper-achivements::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 50px;
+      height: calc(100% + 10px);
+      background-image: linear-gradient(to left, transparent 0%, #ffffff); }
+    .achivement-section .wrapper-achivements::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 50px;
+      height: calc(100% + 10px);
+      background-image: linear-gradient(to right, transparent 0%, #ffffff); }
+    .achivement-section .wrapper-achivements .achivement {
+      height: 210px;
+      flex: 1;
+      border: 1.2px solid #909c92;
+      transition: all 0.4s linear; }
+      .achivement-section .wrapper-achivements .achivement:hover {
+        flex: 2; }
+      .achivement-section .wrapper-achivements .achivement .achivement-title {
+        letter-spacing: 4px; }
+      .achivement-section .wrapper-achivements .achivement span {
+        margin-top: 10px;
+        display: block;
+        font-size: 25px;
+        font-weight: 500; }
