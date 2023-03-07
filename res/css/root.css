@@ -1,0 +1,9 @@
+:root {
+  --deep-blue: #41b3f4;
+  --md-blue: #45b3f2;
+  --section-blue: #52c0ff40;
+
+  --bg-linear-gradient: linear-gradient(106.01deg, #80d1ff 0%, #44b2f1 69.58%);
+
+  --shadow-card: 19px 19px 47px 0 rgba(161, 176, 207, 0.2062);
+}

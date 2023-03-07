@@ -1,0 +1,81 @@
+.wrapper {
+  width: 100%;
+}
+
+.inner {
+  width: min(100% - 20px, 1200px);
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.inline-center {
+  display: inline;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.title--large {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.title--md {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.title--small {
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.normal-text {
+  color: #727272;
+}
+
+.black-text {
+  color: #000000;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.circle {
+  border-radius: 50%;
+}
