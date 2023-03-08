@@ -111,8 +111,8 @@
 
 .about-section {
   background-color: var(--section-blue);
-  padding: 50px 0;
-  margin-top: 50px; }
+  padding: 100px 0;
+  margin-top: 100px; }
   .about-section .inner {
     position: relative; }
     .about-section .inner .decor {
@@ -120,7 +120,7 @@
       z-index: 1;
       top: 0;
       left: 50%;
-      transform: translate(-50%, calc((50% + 50px) * -1));
+      transform: translate(-50%, calc((50% + 100px) * -1));
       width: 70px;
       height: 70px;
       background-color: var(--md-blue); }
@@ -142,7 +142,7 @@
         font-family: "Bai Jamjuree"; }
 
 .achivement-section {
-  padding: 30px 0; }
+  margin-top: 100px; }
   .achivement-section .wrapper-title .title--large,
   .achivement-section .wrapper-title .desc {
     width: 640px; }
@@ -185,174 +185,298 @@
         font-size: 25px;
         font-weight: 500; }
 
-.feature-section .inner {
-  column-gap: 40px; }
-  .feature-section .inner .wrapper-background {
-    flex: 50%;
-    max-width: 580px;
-    height: 500px;
-    background-color: var(--section-blue); }
-    .feature-section .inner .wrapper-background .wrapper-cards {
-      width: 610px;
-      height: 410px;
-      background-color: #ffffff;
-      border-radius: 20px;
-      box-shadow: var(--shadow-card);
-      transform: translate(-50px, 50px); }
-      .feature-section .inner .wrapper-background .wrapper-cards .detail-info {
-        transform: translate(0, 20px);
-        width: calc(100% - 40px);
-        height: 180px;
-        padding: 20px;
+.feature-section {
+  margin-top: 100px; }
+  .feature-section .inner {
+    column-gap: 40px; }
+    .feature-section .inner .wrapper-background {
+      flex: 50%;
+      max-width: 580px;
+      height: 500px;
+      background-color: var(--section-blue); }
+      .feature-section .inner .wrapper-background .wrapper-cards {
+        width: 610px;
+        height: 410px;
         background-color: #ffffff;
         border-radius: 20px;
-        box-shadow: 0 18px 30px 0 #6f6f6f12;
-        row-gap: 10px; }
-        .feature-section .inner .wrapper-background .wrapper-cards .detail-info .top-info {
-          height: 20%; }
-          .feature-section .inner .wrapper-background .wrapper-cards .detail-info .top-info .info-name {
-            font-size: 18px;
-            font-weight: 700; }
-        .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info {
-          height: 80%; }
-          .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-title {
-            height: 30%; }
-          .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity {
-            height: 70%;
-            padding-top: 5px;
-            column-gap: 20px; }
-            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline {
-              position: relative;
-              transform: translate(20px, 0); }
-              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline::before {
-                content: "";
-                position: absolute;
-                top: 50%;
-                left: -12.5px;
-                transform: translate(0, -50%);
-                width: 2px;
-                height: calc(100% - 20px);
-                border-left: 1px dashed #b1b4b8; }
-              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:first-child {
-                position: relative; }
-                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:first-child::before {
+        box-shadow: var(--shadow-card);
+        transform: translate(-50px, 50px); }
+        .feature-section .inner .wrapper-background .wrapper-cards .detail-info {
+          transform: translate(0, 20px);
+          width: calc(100% - 40px);
+          height: 180px;
+          padding: 20px;
+          background-color: #ffffff;
+          border-radius: 20px;
+          box-shadow: 0 18px 30px 0 #6f6f6f12;
+          row-gap: 10px; }
+          .feature-section .inner .wrapper-background .wrapper-cards .detail-info .top-info {
+            height: 20%; }
+            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .top-info .info-name {
+              font-size: 18px;
+              font-weight: 700; }
+          .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info {
+            height: 80%; }
+            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-title {
+              height: 30%; }
+            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity {
+              height: 70%;
+              padding-top: 5px;
+              column-gap: 20px; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline {
+                position: relative;
+                transform: translate(20px, 0); }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline::before {
                   content: "";
                   position: absolute;
                   top: 50%;
-                  left: -15px;
+                  left: -12.5px;
                   transform: translate(0, -50%);
-                  width: 5px;
-                  height: 5px;
-                  border-radius: 50%;
-                  background-color: #000000; }
-              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:last-child {
-                position: relative; }
-                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:last-child::before {
-                  content: "";
-                  position: absolute;
-                  top: 50%;
-                  left: -15px;
-                  transform: translate(0, -50%);
-                  width: 5px;
-                  height: 5px;
-                  border-radius: 50%;
-                  background-color: #000000; }
-            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-achive {
-              column-gap: 40px; }
-            .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill {
-              position: relative;
-              width: 230px;
-              height: 30px;
-              border-radius: 14px;
-              background-color: #eff0f2; }
-              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .count {
-                position: absolute;
-                left: 85%;
-                top: 0;
-                transform: translate(-110%, -150%);
-                font-size: 12px;
-                font-weight: bold; }
-              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .fill {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 85%;
-                height: 100%;
-                background-color: #fdd14ae6;
-                border-radius: inherit; }
-              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-rectangle {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%; }
-                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-rectangle .rectangle {
-                  position: absolute;
-                  bottom: 0;
-                  left: var(--left);
-                  width: 3px;
-                  height: var(--height);
-                  background-color: #979797; }
-              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-bookmark {
-                position: absolute;
-                top: 0;
-                left: 85%;
-                transform: translate(100%, -100%);
-                width: 2px;
-                height: 20px;
+                  width: 2px;
+                  height: calc(100% - 20px);
+                  border-left: 1px dashed #b1b4b8; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:first-child {
+                  position: relative; }
+                  .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:first-child::before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: -15px;
+                    transform: translate(0, -50%);
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background-color: #000000; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:last-child {
+                  position: relative; }
+                  .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-timeline .activity:last-child::before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: -15px;
+                    transform: translate(0, -50%);
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background-color: #000000; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-achive {
+                column-gap: 40px; }
+              .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill {
+                position: relative;
+                width: 230px;
+                height: 30px;
+                border-radius: 14px;
                 background-color: #eff0f2; }
-                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-bookmark::before {
-                  content: "";
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .count {
+                  position: absolute;
+                  left: 85%;
+                  top: 0;
+                  transform: translate(-110%, -150%);
+                  font-size: 12px;
+                  font-weight: bold; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .fill {
                   position: absolute;
                   top: 0;
-                  left: 50%;
-                  transform: translate(-50%, -100%);
-                  width: 5px;
-                  height: 5px;
-                  border-radius: 50%;
+                  left: 0;
+                  width: 85%;
+                  height: 100%;
+                  background-color: #fdd14ae6;
+                  border-radius: inherit; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-rectangle {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%; }
+                  .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-rectangle .rectangle {
+                    position: absolute;
+                    bottom: 0;
+                    left: var(--left);
+                    width: 3px;
+                    height: var(--height);
+                    background-color: #979797; }
+                .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-bookmark {
+                  position: absolute;
+                  top: 0;
+                  left: 85%;
+                  transform: translate(100%, -100%);
+                  width: 2px;
+                  height: 20px;
                   background-color: #eff0f2; }
-      .feature-section .inner .wrapper-background .wrapper-cards .cards {
-        transform: translate(0, 40px);
-        width: calc(100% - 40px);
-        margin: 0 auto;
-        column-gap: 20px; }
-        .feature-section .inner .wrapper-background .wrapper-cards .cards .card {
-          flex: 1;
-          max-width: 180px;
-          height: 140px;
+                  .feature-section .inner .wrapper-background .wrapper-cards .detail-info .bot-info .info-activity .activity-decor .wrapper-fill .wrapper-bookmark::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, -100%);
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background-color: #eff0f2; }
+        .feature-section .inner .wrapper-background .wrapper-cards .cards {
+          transform: translate(0, 40px);
+          width: calc(100% - 40px);
+          margin: 0 auto;
+          column-gap: 20px; }
+          .feature-section .inner .wrapper-background .wrapper-cards .cards .card {
+            flex: 1;
+            max-width: 180px;
+            height: 140px;
+            background-color: #ffffff;
+            box-shadow: var(--shadow-card); }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active {
+              background-color: #222223; }
+              .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-image {
+                border: 0.25px solid #ffffff; }
+              .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-position,
+              .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-name {
+                color: #ffffff; }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card:nth-child(3), .feature-section .inner .wrapper-background .wrapper-cards .cards .card:nth-child(1) {
+              border-radius: 14px; }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card:hover .card-image {
+              top: -20px; }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card:hover .card-position {
+              top: 15px; }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-image {
+              position: absolute;
+              top: 35px;
+              left: 20px;
+              width: 40px;
+              height: 40px;
+              border: 0.25px solid #dfdfdf;
+              transition: all 0.5s linear;
+              overflow: hidden; }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-name {
+              position: absolute;
+              bottom: 20px;
+              left: 20px;
+              transition: all 0.5s linear;
+              font-weight: bold; }
+            .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-position {
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              transition: all 0.2s linear; }
+    .feature-section .inner .wrapper-content {
+      flex: 50%;
+      padding-left: 30px; }
+      .feature-section .inner .wrapper-content .title--small {
+        font-family: "Bai Jamjuree"; }
+      .feature-section .inner .wrapper-content .desc {
+        margin: 30px 0 70px; }
+      .feature-section .inner .wrapper-content .wrapper-features {
+        row-gap: 30px; }
+        .feature-section .inner .wrapper-content .wrapper-features .feature .feature-icon {
+          width: 60px;
+          height: 60px;
+          font-size: 30px;
           background-color: #ffffff;
-          box-shadow: var(--shadow-card); }
-          .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active {
-            background-color: #222223; }
-            .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-image {
-              border: 0.25px solid #ffffff; }
-            .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-position,
-            .feature-section .inner .wrapper-background .wrapper-cards .cards .card.active .card-name {
-              color: #ffffff; }
-          .feature-section .inner .wrapper-background .wrapper-cards .cards .card:nth-child(3), .feature-section .inner .wrapper-background .wrapper-cards .cards .card:nth-child(1) {
-            border-radius: 14px; }
-          .feature-section .inner .wrapper-background .wrapper-cards .cards .card:hover .card-image {
-            top: -20px; }
-          .feature-section .inner .wrapper-background .wrapper-cards .cards .card:hover .card-position {
-            top: 15px; }
-          .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-image {
-            position: absolute;
-            top: 35px;
-            left: 20px;
-            width: 40px;
-            height: 40px;
-            border: 0.25px solid #dfdfdf;
-            transition: all 0.5s linear; }
-          .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-name {
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            transition: all 0.5s linear;
-            font-weight: bold; }
-          .feature-section .inner .wrapper-background .wrapper-cards .cards .card .card-position {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            transition: all 0.2s linear; }
-  .feature-section .inner .wrapper-content {
-    flex: 50%; }
+          box-shadow: 0px 28px 60px rgba(152, 152, 152, 0.15); }
+        .feature-section .inner .wrapper-content .wrapper-features .feature .feature-detail {
+          margin-left: 30px; }
+          .feature-section .inner .wrapper-content .wrapper-features .feature .feature-detail .feature-name {
+            font-size: 20px;
+            font-family: "Bai Jamjuree";
+            font-weight: 600; }
+          .feature-section .inner .wrapper-content .wrapper-features .feature .feature-detail .feature-desc {
+            margin-top: 10px; }
+
+.newsletter-section {
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: var(--md-blue); }
+  .newsletter-section .wrapper-sub-content {
+    position: relative;
+    flex: 1; }
+    .newsletter-section .wrapper-sub-content::before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      right: 75px;
+      width: 5px;
+      height: 130px;
+      background-color: #718176; }
+    .newsletter-section .wrapper-sub-content .title {
+      padding-top: 30px;
+      padding-right: 100px;
+      font-size: 18px;
+      font-weight: 700; }
+  .newsletter-section .wrapper-main-content {
+    flex: 3;
+    column-gap: 100px; }
+    .newsletter-section .wrapper-main-content .wrapper-title {
+      flex: 1; }
+      .newsletter-section .wrapper-main-content .wrapper-title .title--md {
+        font-family: "Bai Jamjuree"; }
+      .newsletter-section .wrapper-main-content .wrapper-title .sub-btn {
+        margin-top: 60px;
+        color: #ffffff;
+        background-color: #e15c19;
+        border: none;
+        padding: 20px 55px; }
+    .newsletter-section .wrapper-main-content .wrapper-decor {
+      flex: 2;
+      max-width: 550px; }
+      .newsletter-section .wrapper-main-content .wrapper-decor .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-10%, -10%);
+        z-index: 0; }
+      .newsletter-section .wrapper-main-content .wrapper-decor .visa-card {
+        transform: translate(10%, -15%) rotate(-63deg); }
+
+#footer-page {
+  margin-top: 100px;
+  padding: 20px 0; }
+  #footer-page .top-footer {
+    position: relative; }
+    #footer-page .top-footer .wrapper-nav {
+      margin-left: -16px; }
+      #footer-page .top-footer .wrapper-nav .nav-link {
+        padding: 10px 16px;
+        font-weight: 700;
+        transition: all 0.2s linear; }
+        #footer-page .top-footer .wrapper-nav .nav-link:hover {
+          color: #000000; }
+    #footer-page .top-footer .wrapper-logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #footer-page .top-footer .wrapper-other-opt {
+      column-gap: 20px;
+      margin-right: -8px; }
+      #footer-page .top-footer .wrapper-other-opt .wrapper-login {
+        transition: all 0.2s linear; }
+        #footer-page .top-footer .wrapper-other-opt .wrapper-login .signup-btn,
+        #footer-page .top-footer .wrapper-other-opt .wrapper-login .login-btn {
+          font-weight: 700;
+          padding: 10px 16px; }
+          #footer-page .top-footer .wrapper-other-opt .wrapper-login .signup-btn:hover,
+          #footer-page .top-footer .wrapper-other-opt .wrapper-login .login-btn:hover {
+            color: #000000; }
+    #footer-page .top-footer .wrapper-social-media .social-link {
+      padding: 10px 8px;
+      transition: all 0.2s linear; }
+      #footer-page .top-footer .wrapper-social-media .social-link .fa-facebook-f:hover {
+        color: #4267b2; }
+      #footer-page .top-footer .wrapper-social-media .social-link .fa-youtube:hover {
+        color: #ff0000; }
+      #footer-page .top-footer .wrapper-social-media .social-link .fa-instagram:hover {
+        color: #e1306c; }
+  #footer-page .bot-footer {
+    margin-top: 50px;
+    position: relative; }
+    #footer-page .bot-footer::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+      height: 2px;
+      background-color: #909c92; }
+    #footer-page .bot-footer .copyright,
+    #footer-page .bot-footer .author {
+      font-size: 12px; }

@@ -7,7 +7,7 @@ This project is an pure HTML, CSS, no JavaScript, no Framework, no Library
 #### Features:
 
 - Just one page
-- Have responesive for mobile, tablet, small srceen and big screen
+- Have some small animation
 
 ## Install and Run Project
 
